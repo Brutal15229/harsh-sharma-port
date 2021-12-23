@@ -1,0 +1,44 @@
+.skill-container
+{
+    
+    padding: 100px 50px 20px 50px;
+    border: 5px solid #d84400;
+    
+}
+
+
+
+
+div {
+    display: block;
+}
+
+.skill-container h1 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    color: #d84400;
+}
+.skill-container p {
+    font-family: "Roboto", sans-serif;
+    color: #616161;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+.skill-container .skills {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.skill-container .skills .skill-box span {
+    line-height: 80px;
+    margin: 10px;
+    padding: 10px 30px;
+    background: #e0e0e0;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #616161;
+    font-family: "Roboto", sans-serif;
+    border: 2px solid #bdbdbd;
+}
